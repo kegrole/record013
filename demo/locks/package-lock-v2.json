@@ -1,0 +1,45 @@
+{
+  "name": "demo-app",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "dependencies": {
+    "left-pad": {
+      "version": "1.3.0",
+      "integrity": "sha512-tQb2mfKFluaeVkBcNd05kJYM2n4/LVCiqAChCTgQ+9g2m15uDzsGfC1a/BGoUthcmm/kcFX7Qrmqs5RmDPtW8g=="
+    },
+    "@scope/config": {
+      "version": "2.0.1",
+      "integrity": "sha512-Ym6DRZdL+2AWzVSBMMiJRDu4rRKYSFiHOdcNTHy4L/B1WhhTOVQuv62gxkih+eW8S9JoV+GkIXUTvufqh0PHHA=="
+    },
+    "debug": {
+      "version": "4.3.4",
+      "integrity": "sha512-sL2H0HJFVe2F52Dm49YXPmgIuFTwrSxPwM8YdSZZ1G9mYQPKAjwlVsuHyw8XcC1H5wRY28CuvwUIp/rTKQazOA=="
+    },
+    "chalk": {
+      "version": "4.1.2",
+      "integrity": "sha512-lKMPE2uT2+KxL334Z80LZ7MOGI+/IyFfsoHbijYege0arveSVDfsxsepNwerMGgBf/Zba+ZH7f/wwjTApuvSgA=="
+    },
+    "rimraf": {
+      "version": "5.0.5",
+      "integrity": "sha512-BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB=="
+    },
+    "no-integrity": {
+      "version": "1.0.0"
+    },
+    "shared-blob": {
+      "version": "1.0.0",
+      "integrity": "sha512-l12PO8yDwrAFYUXD50dJxrOQ/TZzuTzlf3P71Bc8leoC/LHNm42dtFYjogOBEkvPpDFVXZl/0j0P48yt3ldwjw=="
+    },
+    "multi-lib": {
+      "version": "2.0.0",
+      "integrity": "sha512-CBkKf3VPAlT+HRK/gpzTcdlVA3iLx1VsdOXm1cfc8HCSn04NLq1+JF/qRB/+bKqpAOC07GHX2Kfsk/Ic2qknag==",
+      "dependencies": {
+        "multi-lib": {
+          "version": "1.0.0",
+          "integrity": "sha512-hLPE+IMME6zEIEGKEthdAa7ejO55gcWDjjUYy3uEFRgER3Zp4DvX6RxSz8ryK4N15llGNRA3RF+n7Ac5KfCBaw=="
+        }
+      }
+    }
+  }
+}

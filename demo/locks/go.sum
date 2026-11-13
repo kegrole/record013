@@ -1,0 +1,14 @@
+example.com/m@v1.0.0 v1.0.0 h1:CxMCafGH3he2YUx8mpZWYG7zDCQfm9DQ8mJgx+y/ThM=
+example.com/m@v1.0.0/go.mod v1.0.0 h1:yJwNngL0tCKlmRg8yireic46hRGohEbhwD/WSE0Ax3I=
+example.com/util@v2.1.0 v2.1.0 h1:4uGyId5RofM6vGruRNaiCypV1h7iRknPMOiAZ52Z2e0=
+example.com/util@v2.1.0/go.mod v2.1.0 h1:3f0wnb0DXtGRQZV4x4laCnncVmg0jo6gpYmQ4YfY2xQ=
+!example.com/!mod@v1.2.3 v1.2.3 h1:Z5C39dzzMWwQMSsFaLOpYdaCl26YrKQ0boXn0mybSUQ=
+!example.com/!mod@v1.2.3/go.mod v1.2.3 h1:mU9vQY3p5nP0YMbcDeu9RLAbyILjaghWctCIDkiKLMk=
+example.com/bad@v1.5.0 v1.5.0 h1:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+example.com/bad@v1.5.0/go.mod v1.5.0 h1:hcCJjqwfKOK1XhOSJy3QWPVPWRHgWWuy8/mJfk2vx/A=
+example.com/missing@v0.9.0 v0.9.0
+example.com/missing@v0.9.0/go.mod v0.9.0 h1:WOAlRft3eYUq5lPUFIKhuvZdsTHUH6Li086roQvDnlo=
+example.com/multi@v1.0.0 v1.0.0 h1:6tdnxqtDQzGGAp8aHYhrBPE3HGl9tGsxc1QA6dXAaFE=
+example.com/multi@v1.0.0/go.mod v1.0.0 h1:In+m03mXChHlNXgrrV3RLxOtkilxsNetNgVv8+5wIrw=
+example.com/multi@v2.0.0 v2.0.0 h1:XnhbQM7KKBXspzvjqLq5upzT8drML6ZzsJ6NsKXihyU=
+example.com/multi@v2.0.0/go.mod v2.0.0 h1:edY273fUBfPq9YbNN1xfWgXBwL4l9eB3lTxP8OcICBE=

@@ -1,0 +1,332 @@
+{
+  "summary": {
+    "ok": 17,
+    "mismatch": 4,
+    "missing": 4,
+    "multi_version": 4,
+    "total": 29
+  },
+  "locks": [
+    {
+      "file": "demo/locks/go.sum",
+      "records": 6
+    },
+    {
+      "file": "demo/locks/package-lock-v2.json",
+      "records": 8
+    },
+    {
+      "file": "demo/locks/package-lock-v3.json",
+      "records": 8
+    },
+    {
+      "file": "demo/locks/requirements.lock",
+      "records": 7
+    }
+  ],
+  "records": [
+    {
+      "name": "example.com/m",
+      "version": "v1.0.0",
+      "declared_hash": {
+        "dir": "h1:CxMCafGH3he2YUx8mpZWYG7zDCQfm9DQ8mJgx+y/ThM=",
+        "go_mod": "h1:yJwNngL0tCKlmRg8yireic46hRGohEbhwD/WSE0Ax3I="
+      },
+      "computed_hash": {
+        "dir": "h1:CxMCafGH3he2YUx8mpZWYG7zDCQfm9DQ8mJgx+y/ThM=",
+        "go_mod": "h1:yJwNngL0tCKlmRg8yireic46hRGohEbhwD/WSE0Ax3I="
+      },
+      "status": "ok",
+      "file": "demo/locks/go.sum",
+      "line": 1
+    },
+    {
+      "name": "example.com/util",
+      "version": "v2.1.0",
+      "declared_hash": {
+        "dir": "h1:4uGyId5RofM6vGruRNaiCypV1h7iRknPMOiAZ52Z2e0=",
+        "go_mod": "h1:3f0wnb0DXtGRQZV4x4laCnncVmg0jo6gpYmQ4YfY2xQ="
+      },
+      "computed_hash": {
+        "dir": "h1:4uGyId5RofM6vGruRNaiCypV1h7iRknPMOiAZ52Z2e0=",
+        "go_mod": "h1:3f0wnb0DXtGRQZV4x4laCnncVmg0jo6gpYmQ4YfY2xQ="
+      },
+      "status": "ok",
+      "file": "demo/locks/go.sum",
+      "line": 3
+    },
+    {
+      "name": "Example.com/Mod",
+      "version": "v1.2.3",
+      "declared_hash": {
+        "dir": "h1:Z5C39dzzMWwQMSsFaLOpYdaCl26YrKQ0boXn0mybSUQ=",
+        "go_mod": "h1:mU9vQY3p5nP0YMbcDeu9RLAbyILjaghWctCIDkiKLMk="
+      },
+      "computed_hash": {
+        "dir": "h1:Z5C39dzzMWwQMSsFaLOpYdaCl26YrKQ0boXn0mybSUQ=",
+        "go_mod": "h1:mU9vQY3p5nP0YMbcDeu9RLAbyILjaghWctCIDkiKLMk="
+      },
+      "status": "ok",
+      "file": "demo/locks/go.sum",
+      "line": 5
+    },
+    {
+      "name": "example.com/bad",
+      "version": "v1.5.0",
+      "declared_hash": {
+        "dir": "h1:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+        "go_mod": "h1:hcCJjqwfKOK1XhOSJy3QWPVPWRHgWWuy8/mJfk2vx/A="
+      },
+      "computed_hash": {
+        "dir": "h1:Iosvh1fbo9TzvnDdG2I5xa1fk2xp0QAUP8TtwCgDxgs=",
+        "go_mod": "h1:hcCJjqwfKOK1XhOSJy3QWPVPWRHgWWuy8/mJfk2vx/A="
+      },
+      "status": "mismatch",
+      "file": "demo/locks/go.sum",
+      "line": 7
+    },
+    {
+      "name": "example.com/missing",
+      "version": "v0.9.0",
+      "declared_hash": {
+        "dir": null,
+        "go_mod": "h1:WOAlRft3eYUq5lPUFIKhuvZdsTHUH6Li086roQvDnlo="
+      },
+      "computed_hash": {
+        "dir": "h1:+IY/H4TLOuAYPbKXImKsoi8CoY+pQXoNI2Kr5+qnh78=",
+        "go_mod": "h1:WOAlRft3eYUq5lPUFIKhuvZdsTHUH6Li086roQvDnlo="
+      },
+      "status": "missing",
+      "file": "demo/locks/go.sum",
+      "line": 9
+    },
+    {
+      "name": "example.com/multi",
+      "version": [
+        "v1.0.0",
+        "v2.0.0"
+      ],
+      "declared_hash": null,
+      "computed_hash": null,
+      "status": "multi_version",
+      "file": "demo/locks/go.sum",
+      "line": 11
+    },
+    {
+      "name": "left-pad",
+      "version": "1.3.0",
+      "declared_hash": "sha512-tQb2mfKFluaeVkBcNd05kJYM2n4/LVCiqAChCTgQ+9g2m15uDzsGfC1a/BGoUthcmm/kcFX7Qrmqs5RmDPtW8g==",
+      "computed_hash": "sha512-tQb2mfKFluaeVkBcNd05kJYM2n4/LVCiqAChCTgQ+9g2m15uDzsGfC1a/BGoUthcmm/kcFX7Qrmqs5RmDPtW8g==",
+      "status": "ok",
+      "file": "demo/locks/package-lock-v2.json",
+      "line": 7
+    },
+    {
+      "name": "@scope/config",
+      "version": "2.0.1",
+      "declared_hash": "sha512-Ym6DRZdL+2AWzVSBMMiJRDu4rRKYSFiHOdcNTHy4L/B1WhhTOVQuv62gxkih+eW8S9JoV+GkIXUTvufqh0PHHA==",
+      "computed_hash": "sha512-Ym6DRZdL+2AWzVSBMMiJRDu4rRKYSFiHOdcNTHy4L/B1WhhTOVQuv62gxkih+eW8S9JoV+GkIXUTvufqh0PHHA==",
+      "status": "ok",
+      "file": "demo/locks/package-lock-v2.json",
+      "line": 11
+    },
+    {
+      "name": "debug",
+      "version": "4.3.4",
+      "declared_hash": "sha512-sL2H0HJFVe2F52Dm49YXPmgIuFTwrSxPwM8YdSZZ1G9mYQPKAjwlVsuHyw8XcC1H5wRY28CuvwUIp/rTKQazOA==",
+      "computed_hash": "sha512-sL2H0HJFVe2F52Dm49YXPmgIuFTwrSxPwM8YdSZZ1G9mYQPKAjwlVsuHyw8XcC1H5wRY28CuvwUIp/rTKQazOA==",
+      "status": "ok",
+      "file": "demo/locks/package-lock-v2.json",
+      "line": 15
+    },
+    {
+      "name": "chalk",
+      "version": "4.1.2",
+      "declared_hash": "sha512-lKMPE2uT2+KxL334Z80LZ7MOGI+/IyFfsoHbijYege0arveSVDfsxsepNwerMGgBf/Zba+ZH7f/wwjTApuvSgA==",
+      "computed_hash": "sha512-lKMPE2uT2+KxL334Z80LZ7MOGI+/IyFfsoHbijYege0arveSVDfsxsepNwerMGgBf/Zba+ZH7f/wwjTApuvSgA==",
+      "status": "ok",
+      "file": "demo/locks/package-lock-v2.json",
+      "line": 19
+    },
+    {
+      "name": "rimraf",
+      "version": "5.0.5",
+      "declared_hash": "sha512-BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB==",
+      "computed_hash": "sha512-aXlx4z/OZVL86lCKwue2GRtSQP2jxdEGj2f7pg9WxO7TLcB3EK15XCYq5HIrLwYSVw6P/oEgL3VWXZIM0PNGJQ==",
+      "status": "mismatch",
+      "file": "demo/locks/package-lock-v2.json",
+      "line": 23
+    },
+    {
+      "name": "no-integrity",
+      "version": "1.0.0",
+      "declared_hash": null,
+      "computed_hash": "sha512-mTlsT40u1vBvXnmLVl+z8/WUQ5omlh5E0dd2RqQdl9HjS7kIxhGUfJ+d/7oLw8U6WBbTwg67P9nhzsFbAghm0A==",
+      "status": "missing",
+      "file": "demo/locks/package-lock-v2.json",
+      "line": 27
+    },
+    {
+      "name": "shared-blob",
+      "version": "1.0.0",
+      "declared_hash": "sha512-l12PO8yDwrAFYUXD50dJxrOQ/TZzuTzlf3P71Bc8leoC/LHNm42dtFYjogOBEkvPpDFVXZl/0j0P48yt3ldwjw==",
+      "computed_hash": "sha512-l12PO8yDwrAFYUXD50dJxrOQ/TZzuTzlf3P71Bc8leoC/LHNm42dtFYjogOBEkvPpDFVXZl/0j0P48yt3ldwjw==",
+      "status": "ok",
+      "file": "demo/locks/package-lock-v2.json",
+      "line": 30
+    },
+    {
+      "name": "multi-lib",
+      "version": [
+        "1.0.0",
+        "2.0.0"
+      ],
+      "declared_hash": null,
+      "computed_hash": null,
+      "status": "multi_version",
+      "file": "demo/locks/package-lock-v2.json",
+      "line": 34
+    },
+    {
+      "name": "left-pad",
+      "version": "1.3.0",
+      "declared_hash": "sha512-tQb2mfKFluaeVkBcNd05kJYM2n4/LVCiqAChCTgQ+9g2m15uDzsGfC1a/BGoUthcmm/kcFX7Qrmqs5RmDPtW8g==",
+      "computed_hash": "sha512-tQb2mfKFluaeVkBcNd05kJYM2n4/LVCiqAChCTgQ+9g2m15uDzsGfC1a/BGoUthcmm/kcFX7Qrmqs5RmDPtW8g==",
+      "status": "ok",
+      "file": "demo/locks/package-lock-v3.json",
+      "line": 12
+    },
+    {
+      "name": "@scope/config",
+      "version": "2.0.1",
+      "declared_hash": "sha512-Ym6DRZdL+2AWzVSBMMiJRDu4rRKYSFiHOdcNTHy4L/B1WhhTOVQuv62gxkih+eW8S9JoV+GkIXUTvufqh0PHHA==",
+      "computed_hash": "sha512-Ym6DRZdL+2AWzVSBMMiJRDu4rRKYSFiHOdcNTHy4L/B1WhhTOVQuv62gxkih+eW8S9JoV+GkIXUTvufqh0PHHA==",
+      "status": "ok",
+      "file": "demo/locks/package-lock-v3.json",
+      "line": 16
+    },
+    {
+      "name": "debug",
+      "version": "4.3.4",
+      "declared_hash": "sha256-MBpHxnDxg87HVDl0xBd+iK25Kcexn4E3R3B9K0wjbp8= sha512-sL2H0HJFVe2F52Dm49YXPmgIuFTwrSxPwM8YdSZZ1G9mYQPKAjwlVsuHyw8XcC1H5wRY28CuvwUIp/rTKQazOA==",
+      "computed_hash": "sha256-MBpHxnDxg87HVDl0xBd+iK25Kcexn4E3R3B9K0wjbp8=",
+      "status": "ok",
+      "file": "demo/locks/package-lock-v3.json",
+      "line": 20
+    },
+    {
+      "name": "chalk",
+      "version": "4.1.2",
+      "declared_hash": "sha512-lKMPE2uT2+KxL334Z80LZ7MOGI+/IyFfsoHbijYege0arveSVDfsxsepNwerMGgBf/Zba+ZH7f/wwjTApuvSgA==",
+      "computed_hash": "sha512-lKMPE2uT2+KxL334Z80LZ7MOGI+/IyFfsoHbijYege0arveSVDfsxsepNwerMGgBf/Zba+ZH7f/wwjTApuvSgA==",
+      "status": "ok",
+      "file": "demo/locks/package-lock-v3.json",
+      "line": 24
+    },
+    {
+      "name": "rimraf",
+      "version": "5.0.5",
+      "declared_hash": "sha512-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "computed_hash": "sha512-aXlx4z/OZVL86lCKwue2GRtSQP2jxdEGj2f7pg9WxO7TLcB3EK15XCYq5HIrLwYSVw6P/oEgL3VWXZIM0PNGJQ==",
+      "status": "mismatch",
+      "file": "demo/locks/package-lock-v3.json",
+      "line": 28
+    },
+    {
+      "name": "no-integrity",
+      "version": "1.0.0",
+      "declared_hash": null,
+      "computed_hash": "sha512-mTlsT40u1vBvXnmLVl+z8/WUQ5omlh5E0dd2RqQdl9HjS7kIxhGUfJ+d/7oLw8U6WBbTwg67P9nhzsFbAghm0A==",
+      "status": "missing",
+      "file": "demo/locks/package-lock-v3.json",
+      "line": 32
+    },
+    {
+      "name": "shared-blob",
+      "version": "1.0.0",
+      "declared_hash": "sha512-l12PO8yDwrAFYUXD50dJxrOQ/TZzuTzlf3P71Bc8leoC/LHNm42dtFYjogOBEkvPpDFVXZl/0j0P48yt3ldwjw==",
+      "computed_hash": "sha512-l12PO8yDwrAFYUXD50dJxrOQ/TZzuTzlf3P71Bc8leoC/LHNm42dtFYjogOBEkvPpDFVXZl/0j0P48yt3ldwjw==",
+      "status": "ok",
+      "file": "demo/locks/package-lock-v3.json",
+      "line": 35
+    },
+    {
+      "name": "multi-lib",
+      "version": [
+        "1.0.0",
+        "2.0.0"
+      ],
+      "declared_hash": null,
+      "computed_hash": null,
+      "status": "multi_version",
+      "file": "demo/locks/package-lock-v3.json",
+      "line": 39
+    },
+    {
+      "name": "requests",
+      "version": "2.31.0",
+      "declared_hash": "--hash=sha256:961c381f4d1a8c92c9adff0a7105b5fc5eeb52d40ab60c225dd5afe8d6d27f5e",
+      "computed_hash": "sha256:961c381f4d1a8c92c9adff0a7105b5fc5eeb52d40ab60c225dd5afe8d6d27f5e",
+      "status": "ok",
+      "file": "demo/locks/requirements.lock",
+      "line": 2
+    },
+    {
+      "name": "urllib3",
+      "version": "2.2.1",
+      "declared_hash": "--hash=sha256:e33b087ec9e632d4010ef83b5b4fc437d7d55e953d87ba23e18438f9ebee78db",
+      "computed_hash": "sha256:e33b087ec9e632d4010ef83b5b4fc437d7d55e953d87ba23e18438f9ebee78db",
+      "status": "ok",
+      "file": "demo/locks/requirements.lock",
+      "line": 3
+    },
+    {
+      "name": "certifi",
+      "version": "2024.2.2",
+      "declared_hash": "--hash=md5:bd2aed048d55b94db78b22914eb179bc",
+      "computed_hash": "md5:bd2aed048d55b94db78b22914eb179bc",
+      "status": "ok",
+      "file": "demo/locks/requirements.lock",
+      "line": 4
+    },
+    {
+      "name": "click",
+      "version": "8.1.7",
+      "declared_hash": "--hash=sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "computed_hash": "sha256:c04600bc27e6285c9e063114f1c72d349221c068e00e0ff7a232aa5b60d7f8bb",
+      "status": "mismatch",
+      "file": "demo/locks/requirements.lock",
+      "line": 5
+    },
+    {
+      "name": "flask",
+      "version": [
+        "2.3.3",
+        "3.0.2"
+      ],
+      "declared_hash": null,
+      "computed_hash": null,
+      "status": "multi_version",
+      "file": "demo/locks/requirements.lock",
+      "line": 6
+    },
+    {
+      "name": "markupsafe",
+      "version": "2.1.5",
+      "declared_hash": null,
+      "computed_hash": "sha256:f02e0b3a4a5ab481cdf0dc0112abff935db5d5dd1e87066c11100cf0d5f38dab",
+      "status": "missing",
+      "file": "demo/locks/requirements.lock",
+      "line": 7
+    },
+    {
+      "name": "shared-blob",
+      "version": "1.0.0",
+      "declared_hash": "--hash=sha256:d3b459b2b6f3fd0741a79361ff2980ae710f3f4733385e82fcdc44a6cadd1379",
+      "computed_hash": "sha256:d3b459b2b6f3fd0741a79361ff2980ae710f3f4733385e82fcdc44a6cadd1379",
+      "status": "ok",
+      "file": "demo/locks/requirements.lock",
+      "line": 8
+    }
+  ]
+}
